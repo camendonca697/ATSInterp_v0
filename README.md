@@ -14,19 +14,18 @@ multiprism.m model response evaluation
 
 REAL DARA APPLICATION
 RunMe_RealData.m    
-dd.dat interval between stations
-x0.dat vector with distance along the profile
-ft.dat magnetic anomaly along the profile
+dd.dat interval between stations 
+x0.dat vector with distance along the profile 
+ft.dat magnetic anomaly along the profile 
 tt.dat ampltude of the magnetic anomaly 
 JH_model.dat model parameters as in Cavalcante et al (2020)       
 JH_DataFitting.dat  data fitting as evaluated by Cavalcante et al. (2020)    
 aux01_ModelJH.m make the picture of the prismatic models from Cavalcante et al. (2020)  
-aux03_ZaPlotting.m picture with automatic solutions
-ZaResults.xls table with model solutions 
+aux03_ZaPlotting.m picture with automatic solutions 
           
-rdiff.m  evaluate Tikhonov regularized derivatives 
-from Wagner, J., 2021, Regularized numerical 427 differentiation. Accessed on July 17.
-https://www.mathworks.com/matlabcentral/fileexchange/74165       
+rdiff.m  evaluate Tikhonov regularized derivatives 	
+from Wagner, J., 2021, Regularized numerical 427 differentiation. Accessed on July 17.	
+https://www.mathworks.com/matlabcentral/fileexchange/74165   	    
      
               
                
